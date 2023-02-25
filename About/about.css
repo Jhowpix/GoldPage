@@ -34,7 +34,7 @@ h1{
   color: #f8dc6b;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
   letter-spacing: 0.1em;
-  margin-bottom: 10px;
+  margin: 20px;
 }
 
 a{
@@ -99,7 +99,7 @@ main{
 .leftimg img{
   max-width: 400px;
   border-radius: 10px 0 0 10px;
-  box-shadow: 0 0 10px #826b04;
+  box-shadow: 0 0 6px #826b04;
 }
 
 .righttext{
@@ -107,6 +107,11 @@ main{
   text-indent: 20px;
   text-align: left;
   max-width: 600px;
+}
+
+.righttext p{
+  letter-spacing: 0.1em;
+  line-height: 1.3em;
 }
 
 .conteinerdois{
@@ -139,7 +144,7 @@ main{
   width: 190px;
   height: 120px;
   transition: 0.5s;
-  box-shadow: 0 0 20px  #736015 ;
+  box-shadow: 0 0 6px  #736015 ;
 }
 
 .certimg img:hover{
@@ -147,13 +152,11 @@ main{
   height: 320px;
   position: relative;
   justify-content: center;
-  box-shadow: 0 0 20px #000;
-  margin-bottom: 20px;
 }
 
 .pdf{
   transition: 0.5s;
-  box-shadow: 0 0 20px  #736015 ;
+  box-shadow: 0 0 6px  #736015 ;
 }
 
 .pdf:hover{
@@ -162,17 +165,17 @@ main{
   position: relative;
   justify-content: center;
   box-shadow: 0 0 20px #000;
-  margin-bottom: 20px;
 }
 
 #pagew3{
   width: 190px;
   height: 120px;
   margin: 20px 0 20px 0;
-  box-shadow: 0 0 20px  #736015 ;
+  box-shadow: 0 0 6px  #736015 ;
   transition: 0.5s;
 }
 
+/*
 #pagew3:hover{
   width: 680px;
   height: 480px;
@@ -181,6 +184,23 @@ main{
   box-shadow: 0 0 20px #000;
   margin-bottom: 20px;
 }
+*/
+
+#w3schoolImg{
+  color: #f8dc6b;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  background-color: transparent;
+  font-size: 26px;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  padding: 10px 20px ;
+}
+
+#w3schoolImg :hover{
+  transform: scale(1.2);
+}
+
 
 #githubfooter{
   font-size: 28px;
