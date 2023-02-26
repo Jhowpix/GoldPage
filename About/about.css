@@ -197,7 +197,7 @@ main{
   padding: 10px 20px ;
 }
 
-#w3schoolImg :hover{
+#w3schoolImg:hover{
   transform: scale(1.2);
 }
 
