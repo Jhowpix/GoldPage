@@ -118,6 +118,7 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 60%;
   margin: 30px 0 30px 0;
   text-align: center;
 }
@@ -129,15 +130,17 @@ main{
 }
 
 .certimg{
+
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 20px;
   justify-content: space-around;
   margin: 30px 0 30px 0;
-  width: 98vw;
+  width: 70vw;
   transition: 0.5s;
   padding: 0 80px 0 80px;
+
 }
 
 .certimg img{
@@ -145,21 +148,28 @@ main{
   height: 120px;
   transition: 0.5s;
   box-shadow: 0 0 6px  #736015 ;
+  transition: 0.3s;
 }
 
 .certimg img:hover{
-  width: 520px;
-  height: 320px;
-  position: relative;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  transform: scale(3.5);
+  
 }
 
+
 .pdf{
-  transition: 0.5s;
+
+  display: none;
+  transition: 0.3s;
   box-shadow: 0 0 6px  #736015 ;
+
 }
 
 .pdf:hover{
+
   width: 380px;
   height: 520px;
   position: relative;
@@ -168,12 +178,15 @@ main{
 }
 
 #pagew3{
+
   width: 190px;
   height: 120px;
   margin: 20px 0 20px 0;
   box-shadow: 0 0 6px  #736015 ;
   transition: 0.5s;
+
 }
+
 
 /*
 #pagew3:hover{
@@ -187,6 +200,7 @@ main{
 */
 
 #w3schoolImg{
+
   color: #f8dc6b;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
   background-color: transparent;
@@ -195,20 +209,21 @@ main{
   letter-spacing: 0.1em;
   cursor: pointer;
   padding: 10px 20px ;
+
 }
 
-#w3schoolImg:hover{
-  transform: scale(1.2);
-}
-
+#w3schoolImg:hover{transform: scale(1.2);}
 
 #githubfooter{
+
   font-size: 28px;
   font-weight: bold;
   margin: 20px;
+
 }
 
 .Githublink{
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -216,6 +231,7 @@ main{
 }
 
 .portifoliofooter{
+
   cursor: pointer;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
   align-items: center;
@@ -223,18 +239,18 @@ main{
   font-weight: 200;
   margin-left: 20px;
   transition: 0.5s;
+
 }
 
-.portifoliofooter:hover{
-  transform: scale(1.2);
-}
+.portifoliofooter:hover{transform: scale(1.2);}
 
 footer{
+
   position: relative;
   grid-area: footer;
   display: flex;
   width: 100vw;
-  height: 150px;
+  height: 200px;
   margin-top: 40px;
   justify-content: space-evenly;
   align-items: center;
@@ -257,10 +273,7 @@ h2{
   font-weight: 100;
 }
 
-#apresentacao{
-  text-align: end;
-  font-size: 12px;
-}
+#apresentacao{text-align: end; font-size: 12px;}
 
 #contato{
   display: flex;
@@ -270,7 +283,7 @@ h2{
   text-shadow: 0 0 10px #826b04;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 860px){
 
   body{
     height: auto;
@@ -281,13 +294,32 @@ h2{
     background-image: none;
   }
 
+  .container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+
   .leftimg{
     display: none;
+  }
+
+  .aprend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
   }
 
   .certimg{
     display: flex;
     flex-direction: column;
+    width: 90%;
+    height: 40%;
   }
 
   main{
@@ -325,22 +357,26 @@ h2{
     flex-direction: column;
     margin: 10px;
   }
+
   .navMobile{
+
     position: relative;
     display: flex;
     align-items: center;
     width: 100vw;
     height: 40px;
+
   }
+
   #w3schools{
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 8px;
-    width: 370px;
+    width: 100vw;
     height: auto;
-    
 
   }
 
@@ -351,17 +387,14 @@ h2{
   }
 
   #contato{
+
     display:flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
     margin: 20px 0 0 20px;
+
   }
 
-  #contato a{
-    width: 100vw;
-    margin-bottom: 20px;
-  }
-  
+  #contato a{margin-bottom: 20px;}
 
 }
