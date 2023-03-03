@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Josefin+Sans:wght@400;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&family=Roboto:wght@100;300;400;500&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;1,1;1,100;1,200;1,300;1,400&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+*{ margin: 0; padding: 0; box-sizing: border-box; }
 
 body{
+
   background-color: #000;
   background-image: linear-gradient( 45deg, black, #292824 );
   background-attachment: fixed;
@@ -20,69 +17,80 @@ body{
                       "main main main"
                       "footer footer footer";
   overflow-x: hidden;
+  
 }
 
 p{
+
   color: #f8dc6b;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
   font-size: 26px;
   font-weight: 100;
   letter-spacing: 0.1em;
+
 }
 
 h1{
+
   color: #f8dc6b;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
   letter-spacing: 0.1em;
   margin: 20px;
+
 }
 
 a{
+
   text-decoration: none;
   color: #f8dc6b;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
   letter-spacing: 0.1em;
+
 }
 
 .navbar nav{
+
   position: relative;
   width: 40vw;
   height: 77px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 
 .navbar{
+
   grid-area: navbar;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 8px;
+
 }
 
 .navbar nav a{
+
   color: #fbd951;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
   font-size: 26px;
   font-weight: 300;
   text-shadow: 0 0 10px #bb6400be;
+
 }
 
-.navbar nav a:hover{
-  text-shadow: 0 0 20px #fbd951; 
-}
+.navbar nav a:hover{ text-shadow: 0 0 20px #fbd951; }
 
 main{
+
   grid-area: main;
   width: 100vw;
   height: auto;
   background-image: linear-gradient( 45deg, black, #1c1a15 );
   box-shadow: 0 0 30px #000;
   margin-top: 8px;
+
 }
-
-
 
 .container{
   display: flex;
@@ -109,10 +117,7 @@ main{
   max-width: 600px;
 }
 
-.righttext p{
-  letter-spacing: 0.1em;
-  line-height: 1.3em;
-}
+.righttext p{ letter-spacing: 0.1em; line-height: 1.3em; }
 
 .conteinerdois{
   display: flex;
@@ -227,6 +232,7 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
   
 }
 
@@ -318,21 +324,30 @@ h2{
   .certimg{
     display: flex;
     flex-direction: column;
-    width: 90%;
-    height: 40%;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
   }
 
   main{
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-image: none;
     margin: 10px 40px 0 20px;
+    width: 100vw;
+
   }
 
   .container{
-    margin-right: 40px;
+
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto 10px 20px;
+
   }
 
   #pcert{
@@ -391,10 +406,25 @@ h2{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 20px 20px;
 
   }
 
-  #contato a{margin-bottom: 20px;}
+  #contato a {margin-bottom: 20px;}
 
 }
+
+@media screen and (max-width: 400px){
+
+
+  footer{align-items: flex-start;}
+
+  #apresentacao{margin: 0 auto 0 auto;}
+
+  .certimg img:hover{transform: scale(2.5);}
+
+  main{margin: 0; padding: 0;}
+
+}
+
+
