@@ -194,9 +194,11 @@ h2{
   nav{
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 10px;
   }
+
+  a{ margin: 18px;}
 
   .navbar{ margin-top: 30px; }
 
@@ -215,15 +217,18 @@ h2{
   }
 
   #contato{
-
     display:flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 20px 0 0 20px;
+    width: 90vw;
 
   }
 
-  #contato a{ margin-bottom: 20px; }
+  #contato a{ 
+    display: flex;
+    margin-bottom: 20px; 
+  }
 
   main{margin: 0; padding: 0;}
   

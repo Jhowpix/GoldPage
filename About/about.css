@@ -416,8 +416,17 @@ h2{
 
 @media screen and (max-width: 400px){
 
+  nav{display: flex; flex-direction: row;}
+   
+  a{margin: 18px;}
 
   footer{align-items: flex-start;}
+
+  #contato{
+     display: flex;
+     flex-direction: column;
+     width: 90vw;
+  }
 
   #apresentacao{margin: 0 auto 0 auto;}
 
