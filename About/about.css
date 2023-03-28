@@ -300,9 +300,8 @@ h2{
     flex-direction: column;
     overflow-x: hidden;
   }
-  header{
-    background-image: none;
-  }
+
+  header{background-image: none;}
 
   .container{
 
@@ -323,6 +322,10 @@ h2{
     align-items: center;
     justify-content: center;
     
+  }
+
+  nav >a {
+   margin: 18px;
   }
 
   .certimg{
@@ -370,23 +373,6 @@ h2{
     margin-right: 40px;
   }
 
-  nav{
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-  }
-
-  .navMobile{
-
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    height: 40px;
-
-  }
-
   #w3schools{
 
     display: flex;
@@ -418,7 +404,7 @@ h2{
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 540px){
 
   nav{display: flex; flex-direction: row;}
    
