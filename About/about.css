@@ -426,6 +426,10 @@ h2{
 
   footer{align-items: flex-start;}
 
+  .certimg img:hover{
+    transform: none;
+  }
+
   #contato{
      display: flex;
      flex-direction: column;
