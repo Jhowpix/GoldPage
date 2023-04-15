@@ -36,6 +36,12 @@ p, h2, a {
 
 }
 
+#logo{
+  width: 4vw;
+  height: 4vw;
+  margin-right: 10%;
+}
+
 .navbar{
 
   grid-area: navbar;
@@ -47,7 +53,6 @@ p, h2, a {
 
 
 .navbar nav{
-
   width: 40vw;
   display: flex;
   justify-content: space-around;
@@ -63,9 +68,10 @@ p, h2, a {
   font-size: 28px;
   font-weight: 300;
   text-shadow: 0 0 10px #bb6400be;
+  transition: 0.4s;
 
 }
-.navbar nav a:hover{ text-shadow: 0 0 20px #fbd951; }
+.navbar nav a:hover{ text-shadow: 0 0 20px #fbd951; scale: 0.9; }
 
 header{
 
@@ -96,7 +102,7 @@ header{
   height: 330px;
   margin: 80px 0 40px 40px ;
 
-  box-shadow: 10px -15px 50px #9655004b;
+  box-shadow: 10px -15px 50px #9655002d;
   border-radius: 15px;
   overflow: hidden;
 
@@ -258,12 +264,12 @@ main > div img{
 
   width: 220px;
   border: 1px solid #736015;
-  transition: 0.3s;
+  transition: 0.4s;
 
 }
 main > div img:hover{ 
  
-  transform: scale(1.3);
+  transform: scale(1.2);
   box-shadow: 0px 0px 4px #736015;
 
 }
@@ -275,8 +281,8 @@ footer{
   justify-content: space-around;
   align-items: center;
 
-  width: 100vw;
-  height: 130px;
+  width: 98vw;
+  height: 135px;
   
 }
 
@@ -293,156 +299,3 @@ footer a{ display: flex; }
   text-shadow: 0 0 10px #826b04;
 
 }
-
-@media screen and (max-width: 700px){
-
-  body{
-
-    height: auto;
-    display: flex;
-    flex-direction: column;
-
-  }
-
-  header{ background-image: none; }
-
-  nav{
-
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-
-  }
-
-  .navMobile{
-
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    height: 40px;
-
-  }
-
-  .navMobile span{ color: #fff; }
-
-  #divmenu{
-
-    display: block;
-    color: #fff;
-    background: #292824;
-
-  }
-
-  #pheader{ text-align: left; margin-right: 50px; }
-
-  .cardheader{ display: none; }
-   
-  .imgmain{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
-
-  }
-
-  main > div img{
-
-    width: 180px;
-    border: 1px solid #736015 ;
-    transition: 0.5s;
-    margin-bottom: 20px;
-
-  }
-
-  footer{ display: flex; flex-direction: column; }
-
-  #contact{
-
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 20px 0 0 20px;
-
-  }
-
-  #contact a{ width: 100vw; margin-bottom: 20px; }
-
-  #presentation p h2{
-    display: none;
-  }
-  
-}
-
-@media screen and (min-width: 860px){
-
-  .navMobile{display: none;}
-
-}
-
-
-@media screen and (max-width: 440px){
-  
-
-  body{
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    margin-bottom: 40px;
-  }
-
-  footer{ 
-    padding-bottom: 40px; 
-    width: auto;
-    height: auto;
-  }
-
-  main{ margin: 20px 0; padding: 0; }
-   
-   nav{
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: auto;
-   }
-
-   #linkFooter{
-    margin: 18px;
-    width: 300px;
-   }
-
-  #presentation{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    text-align: center;
-  }
-
-  #h2Footer{padding-top: 20px;}
-
-  #contact{
-    display: flex;
-    align-items: flex-start;
-    width:80vw;
-    margin: none;
-    padding: none;
-  }
-
-  .contato > span{
-   width: 50px;
-  }
-
-  a{
-    margin: 18px;
-  }
-  
-}
-
-

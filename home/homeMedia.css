@@ -1,0 +1,180 @@
+@media screen and (max-width: 1700px){
+  footer{
+    scale: 0.9;
+  }
+}
+
+@media screen and (max-width: 950px){
+  #presentation{
+    text-align: center;
+  }
+
+}
+
+
+@media screen and (max-width: 900px){
+  
+  footer{ display: flex; flex-direction: column; }
+
+}
+
+@media screen and (max-width: 700px){
+
+  body{
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  header{ background-image: none; }
+
+  nav{
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+  }
+
+  .navMobile{
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 40px;
+
+  }
+
+  .navMobile span{ color: #fff; }
+
+  #divmenu{
+
+    display: block;
+    color: #fff;
+    background: #292824;
+
+  }
+
+  #pheader{ text-align: left; margin-right: 50px; }
+
+  .cardheader{ display: none; }
+   
+  .imgmain{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+  }
+
+  main > div img{
+
+    width: 180px;
+    border: 1px solid #736015 ;
+    transition: 0.5s;
+    margin-bottom: 20px;
+
+  }
+
+  footer{ display: flex; flex-direction: column; }
+
+  #contact{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0 0 20px;
+
+  }
+
+  #contact a{ width: 100vw; margin-bottom: 20px; }
+
+  #presentation p h2{
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width: 860px){
+
+  .navMobile{display: none;}
+  #logo{display: none;}
+
+}
+
+
+@media screen and (max-width: 440px){
+  
+  #logo{display: none;}
+  
+  .btnheader{
+    display: none;
+  }
+  
+  body{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  footer{ 
+    padding-bottom: 40px; 
+    width: auto;
+    height: auto;
+  }
+
+  main{ margin: 20px 0; padding: 0; }
+   
+   nav{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+   }
+
+   #linkFooter{
+    margin: 18px;
+    width: 300px;
+   }
+
+  #presentation{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+  }
+
+  #h2Footer{padding-top: 20px;}
+
+
+  #contact{
+    display: flex;
+    align-items: flex-start;
+    width:80vw;
+    margin: none;
+    padding: none;
+  }
+  
+  #contact> p{
+    margin-left: 12px;
+  }
+  
+  .contato > span{
+   width: 50px;
+  }
+
+  a{
+    margin: 18px;
+  }
+  
+}

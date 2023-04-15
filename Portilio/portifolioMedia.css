@@ -1,0 +1,82 @@
+@media screen and (max-width: 800px){
+
+  body{ display: flex; flex-direction: column;overflow-x: hidden; }
+
+  header{ background-image: none;}
+
+  main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    background-image:none;
+
+  }
+
+  .post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+  
+  }
+
+  .post div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 240px;
+  }
+
+
+  nav{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+
+  a{ margin: 18px;}
+
+  .navbar{ margin-top: 30px; }
+
+  .navMobile{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 40px;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+
+  #contato{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0 0 20px;
+    width: 90vw;
+
+  }
+
+  #contato> p{
+    margin-left: 12px;
+  }
+
+  #contato a{ 
+    display: flex;
+    margin-bottom: 20px; 
+  }
+
+  main{margin: 0; padding: 0;}
+  
+}
