@@ -120,6 +120,25 @@ main{
   background-size:contain;
   background-repeat: no-repeat;
   color: #000;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.postImg1:hover{
+  opacity: 1;
+}
+
+.postImg2{
+  background-image: url(../img/Captura\ de\ tela\ 2024-02-01\ 131138.png) ;
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  color: #000;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.postImg2:hover{
+  opacity: 1;
 }
 
 footer{

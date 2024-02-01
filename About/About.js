@@ -1,3 +1,0 @@
-function aboutW3shool(){
-    
-}
